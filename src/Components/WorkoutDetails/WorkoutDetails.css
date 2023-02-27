@@ -1,0 +1,18 @@
+.card{
+    margin:20px;
+}
+
+.heading{
+    color:green;
+}
+
+.del{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btns
+{
+    display: flex;
+}
+
