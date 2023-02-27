@@ -9,7 +9,7 @@ const Home = ({Record,setRecord}) => {
   const { workouts, dispatch } = useWorkoutContext();
   useEffect(() => {
     const fetchWorkouts = async () => { 
-      const response = await fetch('/api/workouts/')
+      const response = await fetch('https://workout-scheduler-kunal245.onrender.com/api/workouts/')
       const result = await response.json();
        console.log(result);
       if (response.ok) {

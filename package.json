@@ -1,5 +1,4 @@
 {
-  "proxy": "https://workout-scheduler-kunal245.onrender.com",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
